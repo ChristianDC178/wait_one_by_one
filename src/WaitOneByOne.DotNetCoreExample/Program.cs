@@ -8,13 +8,9 @@ namespace WaitOneByOne.DotNetCoreExample
 
         static void Main(string[] args)
         {
-
-            int PROCESSOR_COUNT = Environment.ProcessorCount;
-
+            int wantToExecute = 30, index = 0, executed = 0, finished = 0, PROCESSOR_COUNT = Environment.ProcessorCount; ;
             Task[] tasks = new Task[PROCESSOR_COUNT];
-            int wantToExecute = 30, index = 0, executed = 0;
             object lockObject = new object();
-            int finished = 0;
 
             Action action = () =>
             {
@@ -49,6 +45,7 @@ namespace WaitOneByOne.DotNetCoreExample
                     tasks[indexFinished] = Task.Factory.StartNew(action);
                     executed++;
                 }
+
                 continueLoop = executed < wantToExecute;
             }
 
