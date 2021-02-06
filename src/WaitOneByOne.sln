@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitOneByOne.DotNetCoreExample", "WaitOneByOne.DotNetCoreExample\WaitOneByOne.DotNetCoreExample.csproj", "{0F09C8D3-A80B-4B87-9C9E-0865A177921A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F09C8D3-A80B-4B87-9C9E-0865A177921A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F09C8D3-A80B-4B87-9C9E-0865A177921A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F09C8D3-A80B-4B87-9C9E-0865A177921A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F09C8D3-A80B-4B87-9C9E-0865A177921A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EADCB4F-573B-48FE-A03E-77E99C30FD8B}
+	EndGlobalSection
+EndGlobal
